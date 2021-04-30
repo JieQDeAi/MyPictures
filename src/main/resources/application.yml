@@ -1,0 +1,17 @@
+#端口
+server:
+  port: 8088
+
+#配置数据源
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://106.54.84.28:3306/jackey?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: yuzhouwudidamowang
+    name: mysql
+
+#整合MyBatis
+mybatis:
+  mapper-locations: classpath:mybatis/*Mapper.xml
+
